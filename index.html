@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bestway Medical Clinic - WAFID-approved medical center serving international visa/work/residency medical screening in Lahore, Pakistan">
+    <title>Bestway Medical Clinic — Lahore, Pakistan</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="#top" class="logo">Bestway Medical Clinic</a>
+            <button class="mobile-menu" id="mobileMenuBtn">☰</button>
+            <nav id="navMenu">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Facility</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#feedback">Feedback</a>
+                <a href="#booking">Book Appointment</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#booking" class="header-cta">Book now</a>
+        </div>
+    </header>
+
+    <section class="hero" id="top">
+        <div class="hero-container">
+            <h1>Bestway Medical Clinic</h1>
+            <p>WAFID-approved medical center serving international visa, work, and residency medical screening in Lahore</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">Book a consultation</a>
+                <a href="tel:+923464422378" class="btn btn-secondary">Call 03464422378</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>About Bestway Medical Clinic</h2>
+        <p class="about-intro">
+            Bestway Medical Clinic is a WAFID-approved medical center specializing in comprehensive medical screening and diagnostics. We serve international patients requiring medical examinations for visa applications, work permits, and residency documentation with professional care and accurate assessments.
+        </p>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3>International Standards</h3>
+                <p>WAFID-approved facility meeting international medical screening standards for visa and work permit applications.</p>
+            </div>
+            <div class="about-card">
+                <h3>Comprehensive Assessment</h3>
+                <p>Full medical evaluation including laboratory tests, imaging, and clinical assessment by qualified medical professionals.</p>
+            </div>
+            <div class="about-card">
+                <h3>Quick Processing</h3>
+                <p>Fast turnaround on medical reports and certifications required for visa submission and international applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Visa Medical Screening</h3>
+                <p>Complete medical examination for visa applications including physical assessment, laboratory tests, and X-ray screening as required by immigration authorities.</p>
+            </div>
+            <div class="service-card">
+                <h3>Work Permit Medical</h3>
+                <p>Occupational health screening and medical assessment for employment abroad and work permit applications.</p>
+            </div>
+            <div class="service-card">
+                <h3>Laboratory Services</h3>
+                <p>Complete blood work, pathological testing, and biochemical analysis using modern laboratory equipment.</p>
+            </div>
+            <div class="service-card">
+                <h3>Imaging Services</h3>
+                <p>X-ray, ultrasound, and other diagnostic imaging services for complete medical evaluation.</p>
+            </div>
+            <div class="service-card">
+                <h3>Cardiac Assessment</h3>
+                <p>ECG and cardiac screening for occupational health and visa medical requirements.</p>
+            </div>
+            <div class="service-card">
+                <h3>Medical Certification</h3>
+                <p>Certified medical reports and health certificates ready for visa submission and international use.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Our Facility</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <h3>Modern Equipment</h3>
+                <p>State-of-the-art diagnostic equipment and laboratory facilities for accurate testing and assessment.</p>
+            </div>
+            <div class="gallery-item">
+                <h3>Professional Staff</h3>
+                <p>Experienced medical professionals and trained technicians dedicated to quality patient care.</p>
+            </div>
+            <div class="gallery-item">
+                <h3>Comfortable Environment</h3>
+                <p>Clean, hygienic, and comfortable facility designed for patient convenience and safety.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="container">
+        <div class="reviews-section">
+            <h2 style="text-align: center; margin-bottom: 2rem;">Patient Reviews</h2>
+            <div class="rating-box">
+                <div class="rating-number">2.7</div>
+                <div class="rating-text">Based on 13 Google reviews</div>
+            </div>
+            <div class="review-cards">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>Professional medical staff and quick service. Highly recommended for visa medical screening.</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★☆</div>
+                    <p>Good diagnostic center with reasonable prices and efficient service.</p>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★☆</div>
+                    <p>Experienced team and reliable medical reports for international applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="container">
+        <h2>Book a Consultation</h2>
+        <div class="booking-form">
+            <p style="color: #555; margin-bottom: 2rem;">Send a request and we'll confirm your appointment by phone or email. For urgent matters, call directly.</p>
+            <form id="bookingForm">
+                <div class="success" id="successMsg">Your appointment request has been received! We'll contact you shortly.</div>
+                <div class="error" id="errorMsg">Please fill in all required fields.</div>
+
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email (optional)</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service Required *</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="visa">Visa Medical Screening</option>
+                        <option value="work">Work Permit Medical</option>
+                        <option value="lab">Laboratory Services</option>
+                        <option value="imaging">Imaging Services</option>
+                        <option value="cardiac">Cardiac Assessment</option>
+                        <option value="general">General Medical Checkup</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="date">Preferred Date *</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Additional Information (optional)</label>
+                    <textarea id="notes" name="notes"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit">Request Appointment</button>
+                </div>
+            </form>
+
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #ddd; font-size: 0.9rem; color: #555;">
+                <p><strong>Before you book:</strong> First-time patients should plan for a longer initial session. Bring any past medical reports if available.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback" class="container">
+        <h2>Share Your Feedback</h2>
+        <div class="booking-form" style="max-width: 700px;">
+            <p style="color: #555; margin-bottom: 2rem;">We value your experience. Please share your feedback about your visit to help us improve our services.</p>
+            <form id="feedbackForm">
+                <div class="success" id="feedbackSuccessMsg">Thank you! Your feedback has been sent to us. We appreciate your input.</div>
+                <div class="error" id="feedbackErrorMsg">Please fill in the required fields.</div>
+
+                <div class="form-group">
+                    <label for="feedbackName">Name (optional)</label>
+                    <input type="text" id="feedbackName" name="feedbackName">
+                </div>
+
+                <div class="form-group">
+                    <label for="feedbackEmail">Email (optional)</label>
+                    <input type="email" id="feedbackEmail" name="feedbackEmail">
+                </div>
+
+                <div class="form-group">
+                    <label>How was your visit? *</label>
+                    <div class="star-rating" role="radiogroup" aria-label="Rating">
+                        <button type="button" class="star" data-rating="1" aria-label="1 star">★</button>
+                        <button type="button" class="star" data-rating="2" aria-label="2 stars">★</button>
+                        <button type="button" class="star" data-rating="3" aria-label="3 stars">★</button>
+                        <button type="button" class="star" data-rating="4" aria-label="4 stars">★</button>
+                        <button type="button" class="star" data-rating="5" aria-label="5 stars">★</button>
+                    </div>
+                    <input type="hidden" id="rating" name="rating" value="" required>
+                    <div class="rating-label" id="ratingLabel">Select a rating</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedbackMessage">Your Feedback *</label>
+                    <textarea id="feedbackMessage" name="feedbackMessage" placeholder="Tell us about your experience at Bestway Medical Clinic..." required style="min-height: 120px;"></textarea>
+                </div>
+
+                <div class="form-group" style="margin-bottom: 0;">
+                    <button type="submit" style="background: #2e7d32; width: 100%;">Send Feedback</button>
+                </div>
+            </form>
+
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #ddd; font-size: 0.9rem; color: #555;">
+                <p><strong>Your feedback helps us:</strong></p>
+                <p>✓ Improve our diagnostic services</p>
+                <p>✓ Enhance patient experience</p>
+                <p>✓ Maintain high quality standards</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="contact-section">
+            <h2>Contact & Location</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>📍 Address</h3>
+                    <p>77-G-2, Phase II, Main Boulevard, Johar Town</p>
+                    <p>Lahore, Pakistan</p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>📞 Phone</h3>
+                    <p><a href="tel:+923464422378">03464422378</a></p>
+                    <a href="https://wa.me/923464422378?text=Hi%2C%20I%27d%20like%20to%20ask%20about%20an%20appointment" class="contact-link">WhatsApp</a>
+                </div>
+
+                <div class="contact-item">
+                    <h3>✉️ Email</h3>
+                    <p><a href="mailto:bestwaymedicalclinic@gmail.com">bestwaymedicalclinic@gmail.com</a></p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>🕒 Hours</h3>
+                    <p>Monday – Friday: 9:00 AM – 6:00 PM</p>
+                    <p>Saturday: 10:00 AM – 4:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bestway Medical Clinic. All rights reserved.</p>
+        <p>Johar Town, Lahore, Pakistan | WAFID-approved Medical Center</p>
+        <p>
+            <a href="#booking">Book Appointment</a> | 
+            <a href="#feedback">Send Feedback</a> | 
+            <a href="#contact">Contact</a> | 
+            <a href="#about">About</a>
+        </p>
+        <p style="margin-top: 1rem;">
+            <a href="https://wa.me/923464422378?text=Hi%20Bestway%20Medical%20Clinic%2C%20I%27d%20like%20to%20ask%20about%20an%20appointment" style="background: #25D366; padding: 0.5rem 1rem; border-radius: 4px; display: inline-block; margin: 0 0.5rem;">💬 Chat on WhatsApp</a>
+        </p>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/923464422378?text=Hi%20Bestway%20Medical%20Clinic%2C%20I%27d%20like%20to%20ask%20about%20an%20appointment" style="position: fixed; bottom: 20px; right: 20px; width: 60px; height: 60px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; z-index: 999; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-decoration: none;" title="Chat with us on WhatsApp">
+        💬
+    </a>
+    <script src="script.js"></script>
+</body>
+</html>
